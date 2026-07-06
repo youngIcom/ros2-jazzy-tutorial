@@ -1,36 +1,36 @@
-# 🤖 Belajar ROS 2: Praktikum & Tutorial Terpadu (Jazzy)
+# Belajar ROS 2: Praktikum & Tutorial Terpadu (Jazzy)
 
 Selamat datang di repositori ROS 2(Robot Operating System 2)! Repositori ini berisi kumpulan paket (_packages_), kode sumber (Python & C++), dan dokumentasi mengenai konsep dasar hingga menengah dalam ekosistem ROS 2 Jazzy.
 
 ---
 
-## 📋 Daftar Isi & Modul Pembelajaran
+## Daftar Isi & Modul Pembelajaran
 
 Repositori ini telah menstrukturkan pembelajaran ke dalam beberapa modul _package_. Klik tautan pada masing-masing modul untuk membaca panduan detail teori dan cara menggunakannya:
 
 ### 1. Fundamental Komunikasi
 
-- 📡 **[Publisher & Subscriber (Python)](./src/py_pubsub/)**: Belajar _streaming_ data terus-menerus.
-- 📡 **[Publisher & Subscriber (C++)](./src/cpp_pubsub/)**: Implementasi berkinerja tinggi menggunakan C++ modern.
-- 🛎️ **[Client & Server (Python)](./src/py_srvcli/)**: Konsep Request-Response (_blocking_) menggunakan Python.
-- 🛎️ **[Client & Server (C++)](./src/cpp_srvcli/)**: Membangun kalkulator _Service_ di C++.
-- 🏃‍♂️ **[Actions (Python)](./src/action_tutorials_py/)**: Menyuruh robot mengerjakan tugas panjang disertai _Feedback_.
-- 🏃‍♂️ **[Actions (C++)](./src/custom_action_cpp/)**: Membangun _Action Server_ dalam C++ tanpa menyebabkan _hang_ sistem.
+- **[Publisher & Subscriber (Python)](./src/py_pubsub/)**: Belajar _streaming_ data terus-menerus.
+- **[Publisher & Subscriber (C++)](./src/cpp_pubsub/)**: Implementasi berkinerja tinggi menggunakan C++ modern.
+- **[Client & Server (Python)](./src/py_srvcli/)**: Konsep Request-Response (_blocking_) menggunakan Python.
+- **[Client & Server (C++)](./src/cpp_srvcli/)**: Membangun kalkulator _Service_ di C++.
+- **[Actions (Python)](./src/action_tutorials_py/)**: Menyuruh robot mengerjakan tugas panjang disertai _Feedback_.
+- **[Actions (C++)](./src/custom_action_cpp/)**: Membangun _Action Server_ dalam C++ tanpa menyebabkan _hang_ sistem.
 
 ### 2. Konsep Tingkat Menengah
 
-- 📦 **[Custom Interfaces](./src/custom_action_interfaces/)**: Memahami cara membuat format tipe data (_Message/Service/Action_) buatan sendiri.
-- 📦 **[Struktur Package Dasar](./src/my_package/)**: Membedah anatomi file dan struktur wajib sebuah _package_ di ekosistem ROS 2.
-- 🐢 **[Transform / TF2](./src/turtle_tf_broadcaster/)**: Matematika rotasi dan translasi koordinat orientasi secara _real-time_.
+- **[Custom Interfaces](./src/custom_action_interfaces/)**: Memahami cara membuat format tipe data (_Message/Service/Action_) buatan sendiri.
+- **[Struktur Package Dasar](./src/my_package/)**: Membedah anatomi file dan struktur wajib sebuah _package_ di ekosistem ROS 2.
+- **[Transform / TF2](./src/turtle_tf_broadcaster/)**: Matematika rotasi dan translasi koordinat orientasi secara _real-time_.
 
 ### 3. Dunia Fisik & Simulasi
 
-- 🤖 **[URDF & Integrasi Gazebo](./src/my_robot_description/)**: Mendesain tubuh fisik robot, mengatur _Differential Drive_, memasang sensor LiDAR virtual, dan menjembatani komunikasi data menuju Gazebo Simulator.
-- 💡 **[Dokumentasi Laporan Tambahan](./docs/)**: Menyimpan laporan akademis komprehensif mengenai simulasi Gazebo, visualisasi RViz2, dan rekaman data dengan _Rosbag_.
+- **[URDF & Integrasi Gazebo](./src/my_robot_description/)**: Mendesain tubuh fisik robot, mengatur _Differential Drive_, memasang sensor LiDAR virtual, dan menjembatani komunikasi data menuju Gazebo Simulator.
+- **[Dokumentasi Laporan Tambahan](./docs/)**: Menyimpan laporan akademis komprehensif mengenai simulasi Gazebo, visualisasi RViz2, dan rekaman data dengan _Rosbag_.
 
 ---
 
-## 📖 Glosarium (Kamus ROS 2)
+## Glosarium (Kamus ROS 2)
 
 Bagi pemula, istilah-istilah di bawah ini wajib dipahami:
 
@@ -47,7 +47,7 @@ Bagi pemula, istilah-istilah di bawah ini wajib dipahami:
 
 ---
 
-## 🛠️ Prasyarat Sistem
+## Prasyarat Sistem
 
 Sebelum mulai bereksperimen, pastikan komputer Anda telah dikonfigurasi:
 
@@ -60,14 +60,14 @@ Sebelum mulai bereksperimen, pastikan komputer Anda telah dikonfigurasi:
 
 ---
 
-## 🚀 Cara Instalasi & Setup Lingkungan
+## Cara Instalasi & Setup Lingkungan
 
 Ikuti langkah-langkah ini untuk menyalin _workspace_ ini ke komputer Anda:
 
 1. **Kloning (Download) Repositori:**
 
    ```bash
-   git clone <URL_GITHUB_ANDA_DISINI>
+   clone repository ini
    cd ros2_praktikum
    ```
 
