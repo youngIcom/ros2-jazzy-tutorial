@@ -1,0 +1,7 @@
+launch:
+  # Menjalankan node talker dari py_pubsub menggunakan YAML
+  - node:
+      pkg: "py_pubsub"
+      exec: "talker"
+      name: "yaml_talker_node"
+      output: "screen"

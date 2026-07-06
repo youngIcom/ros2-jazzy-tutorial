@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="py_pubsub" exec="talker" name="xml_talker_node" output="screen" />
+</launch>
